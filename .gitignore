@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Outputs
+outputs/
+*.png
+*.jpg
+*.jpeg
+samples/*.png
+samples/*.jpg
+samples/*.jpeg
+
+# Model cache
+.cache/
+huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+/temp
+/models
+/outputs

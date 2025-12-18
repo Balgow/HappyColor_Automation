@@ -1,0 +1,19 @@
+1. prompt:painting of a car parked on a street next to a small building, anime countryside landscape, beautiful anime scene, ghibli art style, ghibli artstyle, beautiful anime scenery, anime background art, ghibli vibe, ghibli studio anime style, anime scenery, anime beautiful peace scene, inspired by Hiroshi Yoshida, studio ghibli art style, anime nature, studio ghibli artstyle
+seed: 1580511507
+ratio: 3:4
+
+2. prompt: A golden road winds through a misty valley towards towering mountains as in DC or Marvel universe. The rising sun peeks over the horizon, painting the sky in vivid hues of pink, orange, and gold. Ancient white cherry trees line the path, their blossoms awakening to the dawn's first light, petals glowing with an ethereal radiance. Dew-kissed grass sparkles as sunbeams dance across the landscape. Wispy clouds catch the morning light, transforming into floating islands of color. In the distance, the mountains' peaks emerge from shadow, their crystal spires glinting in the new day's brilliance. As the world stirs to life, luminous flowers unfurl along the roadside, their soft glow harmonizing with the cherry blossoms' increasing luminescence.
+seed:1331953040
+ratio: 16:9
+
+3.Super-exaggerated anime-style Santa Claus running and diving across a snowy rooftop, wildly flailing to catch a football mid-air, bag of gifts bursting open with presents flying everywhere. Over-the-top comical expressions, wide-eyed concentration, energetic motion lines, dramatic anime-style action. Snow softly falling, sparkling rooftops, glowing chimney lights, warm cozy holiday vibe. Vibrant, saturated colors, whimsical perspective, playful humor, cute and lively characters, dynamic cinematic angle, festive, cheerful, and joyful winter scene. High detail, polished anime illustration, exaggerated cartoon physics for comedic effect.
+seed: 1073420925
+ratio: 4:3
+
+4. prompt: Shaman nature hunter cosmos game online anime western pet wolf paradise cannabis, detailed", "4k", "masterpiece
+seed: 628676025
+ratio: 16:9
+
+5. prompt: Anime-style portrait of a crazed cultist from a mining town in a Warhammer 40,000 setting. He wears grimy, industrial cultist robes layered over rough work clothes, stained with dust and oil. His face is hidden beneath a hood, leaving only wild, fanatical eyes visible. The setting evokes a grimdark mining world—rusted metal structures, towering manufactorum walls, and dim industrial lighting glowing through smoke and ash. Harsh shadows, high contrast, and detailed textures emphasize madness, decay, and devotion to dark powers. Gritty, dramatic anime art style with strong 40K grimdark atmosphere.
+seed: 554116978
+ratio: 1:1

@@ -1,0 +1,28 @@
+flux:
+  model:
+    name: "black-forest-labs/FLUX.1-dev"
+    gguf_file: "flux1-dev-Q4_0.gguf"  # GGUF file in models/ directory
+    lora_path: "aidmaImageUpgrader-FLUX-V0.1.safetensors"  # LoRA file in models/ directory
+    torch_dtype: "bfloat16"  # Data type for model weights
+    compute_dtype: "bfloat16"  # Data type for computations
+  
+  generation:
+    default_steps: 20  # Default number of inference steps
+    default_aspect_ratio: "1:1"  # Default aspect ratio
+    height: 1024
+    width: 1024
+    steps_min: 1  # Minimum steps
+    steps_max: 50  # Maximum steps
+    # Aspect ratios and their dimensions (width x height)
+    aspect_ratios:
+      "1:1": [1024, 1024]
+      "3:4": [768, 1024]   # Portrait
+      "4:3": [1024, 768]   # Landscape
+      "16:9": [1024, 576]  # Landscape
+      "9:16": [576, 1024]  # Portrait
+    seed: null  # Set to integer for reproducibility, null for random
+  
+  output:
+    save_path: "outputs"  # Output directory for generated images
+    format: "png"  # Image format
+
