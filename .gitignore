@@ -48,3 +48,6 @@ Thumbs.db
 /temp
 /models
 /outputs
+/v1
+
+*.ipynb

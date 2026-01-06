@@ -20,6 +20,7 @@ class FluxGenerator:
         ckpt_path = os.path.join("models", "flux1-dev-Q4_0.gguf")
         path_lora = os.path.join('models', 'FluxDFaeTasticDetails.safetensors')
         path_lora = os.path.join("models", "aidmaImageUpgrader-FLUX-V0.1.safetensors")
+        # path_lora = os.path.join("models", "lineart_flux.safetensors")
         # Load transformer with GGUF quantization (from zz.py lines 9-13)
         self.transformer = FluxTransformer2DModel.from_single_file(
             ckpt_path,

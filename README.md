@@ -42,28 +42,51 @@ pip install -r requirements.txt
 HappyColor_Automation/
 ├── models/
 │   ├── flux1-dev-Q4_0.gguf
+│   ├── flux1-kontext-dev-Q4_0.gguf
 │   └── aidmaImageUpgrader-FLUX-V0.1.safetensors
 ├── outputs/
 ├── generator_flux.py
+├── generator_flux_kontext.py
 ├── gradio_flux_app.py
+├── gradio_flux_kontext_app.py
 └── config.yaml
 ```
 
 ## Использование
 
-### Командная строка
+### Text-to-Image (FLUX.1-dev)
 
+**Командная строка:**
 ```bash
 python generator_flux.py
 ```
 
-### Веб-интерфейс (Gradio)
-
+**Веб-интерфейс (Gradio):**
 ```bash
 python gradio_flux_app.py
 ```
 
 Доступ по адресу `http://localhost:7860`
+
+### Image-to-Image (FLUX Kontext)
+
+FLUX Kontext используется для редактирования изображений по референсу и промпту.
+
+**Требования:**
+- Модель: `flux1-kontext-dev-Q4_0.gguf` (поместите в `models/`)
+- Загрузите с [HuggingFace](https://huggingface.co/city96/FLUX.1-Kontext-dev-gguf)
+
+**Запуск:**
+```bash
+python gradio_flux_kontext_app.py
+```
+
+Доступ по адресу `http://localhost:7861`
+
+**Особенности:**
+- Редактирование изображений по референсу
+- Генерация в формате 1:1 (1024×1024)
+- Время генерации: 60-80 секунд
 
 ## Производительность
 
