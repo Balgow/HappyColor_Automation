@@ -51,3 +51,4 @@ Thumbs.db
 /v1
 
 *.ipynb
+**/*.ipynb
